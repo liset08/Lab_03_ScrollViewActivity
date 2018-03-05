@@ -9,18 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SrollViewActivity"></activity>
+        <activity android:name=".SrollViewActivity" />
         <activity android:name=".SrollViewHorizontal" />
         <activity android:name=".AndroidButtonActivity" />
         <activity android:name=".ImageButtonActivity" />
-        <activity android:name=".EditTextActivity">
+        <activity android:name=".EditTextActivity" />
+        <activity android:name=".CheckBoxActivity" />
+        <activity android:name=".RadioButtontActivity" />
+        <activity android:name=".SwitchButtonActivity"></activity>
+        <activity android:name=".ToggleButtonActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CheckBoxActivity"></activity>
+        <activity android:name=".RatingBarActivity"></activity>
     </application>
 
 </manifest>
