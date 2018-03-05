@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
     tools:context="com.cayhualla.scrollviewactivity.ImageButtonActivity">
 
     <ImageButton
@@ -13,7 +14,9 @@
         android:elevation="4dp"
         android:onClick="firstImageButton"
         android:scaleType="centerInside"
-        android:src="@android:drawable/sym_call_outgoing" />
+        android:src="@android:drawable/sym_call_outgoing"
+        android:background="@android:color/transparent"
+        />
 
     <ImageButton
         android:id="@+id/imageButton1"
@@ -25,7 +28,8 @@
         android:onClick="secondImageButton"
         android:scaleType="centerCrop"
         android:src="@drawable/bg_face"
-        android:background="@android:color/transparent" />
+        android:background="@android:color/transparent"
+        />
 
 
 
