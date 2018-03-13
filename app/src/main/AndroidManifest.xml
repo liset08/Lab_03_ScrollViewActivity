@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cayhualla.scrollviewactivity">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,15 +18,33 @@
         <activity android:name=".EditTextActivity" />
         <activity android:name=".CheckBoxActivity" />
         <activity android:name=".RadioButtontActivity" />
-        <activity android:name=".SwitchButtonActivity"></activity>
-        <activity android:name=".ToggleButtonActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".SwitchButtonActivity" />
+        <activity android:name=".ToggleButtonActivity" />
+        <activity android:name=".RatingBarActivity" />
+        <activity android:name=".SpinnerActivity" />
+        <activity android:name=".ProgressBarActivity" />
+        <activity android:name=".DatePickerActivity" />
+        <activity android:name=".TimePickerActivity" />
+        <activity android:name=".FloatingActionButtonActivity" />
+        <activity android:name=".Clase4" />
+        <activity android:name=".FloatingLabelsActivity" />
+        <activity android:name=".SeekBarActivity" />
+        <activity android:name=".SimpleDialogActivity" />
+        <activity android:name=".CustomAlertDialogActivity" />
+        <activity android:name=".SnackbarActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".VideoViewActivity" />
+        <activity android:name=".WebViewActivity"></activity>
+        <activity android:name=".SearchViewActivity">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity android:name=".RatingBarActivity"></activity>
+        <activity android:name=".CalendarViewActivity"><intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
     </application>
 
 </manifest>
